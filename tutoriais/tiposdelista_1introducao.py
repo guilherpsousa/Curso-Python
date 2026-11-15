@@ -1,5 +1,6 @@
 """ Listas em Python (fatiamento, redefinindo)
 Tipo list - Mutável
+Listas são iteráveis, 'consigo usar o for dentro delas'
 Suporta vários valores de qualquer tipo
 Útil para índices e fatiamento
 Métodos úteis: append, insert, pop, del, clear, extend, +
