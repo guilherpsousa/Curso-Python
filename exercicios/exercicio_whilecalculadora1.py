@@ -8,8 +8,10 @@ while True:
         numero2=int(input('Digite o 2o. número: '))
         operacao=input('Qual a operação? (- + / *): ')
         operacaovalida='-+/*'
-
-        if operacaovalida > 1:
+# corrigido o erro que ao digitar qualquer operador, o programa caia no except
+# problema esse pq eu não havia colocado len(operacao), estava apenas 'operacao' 
+# e isso dava erro, pois o operador é uma string e não um inteiro
+        if len(operacao) > 1:  
             print('Digite apenas um operador')
             continue
         elif operacao not in operacaovalida:

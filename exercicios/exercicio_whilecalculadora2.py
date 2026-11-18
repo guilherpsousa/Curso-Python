@@ -2,7 +2,10 @@
 # A tipo 1 é mais simples, não especifica o erro, apenas diz que deu erro
 # A tipo 2 eu uso not in e continue pra especificar melhor o erro caso exista
 
+import subprocess
+
 while True:
+    subprocess.run(["clear"])
     try:
         numero1=int(input('Digite o 1o. número: '))
         if numero1 == 1111:
@@ -13,6 +16,7 @@ while True:
     except:
         print('DIGITE APENAS NÚMEROS!')
         print(30*'-')
+        input('Pressione ENTER para continuar...')
         continue
     operacao=input('Qual a operação? (- + / *): ')
     operacaovalida='-+/*'
