@@ -5,7 +5,7 @@
 import subprocess
 
 while True:
-    subprocess.run(["clear"])
+    subprocess.run(["clear"], check=False)
     try:
         numero1=int(input('Digite o 1o. número: '))
         if numero1 == 1111:

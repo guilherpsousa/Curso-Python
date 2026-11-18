@@ -10,6 +10,8 @@ print(type(10.5)) # Nesse caso FLOAT
 # Do mesmo jeito, Type funciona com strings.
 print(type("Hello, world!")) # Nesse caso str
 
+''' Arredondamento de números quebrados'''
+
 numero1 = 0.1
 numero2 = 0.7
 numero3 = numero1 + numero2

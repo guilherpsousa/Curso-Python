@@ -6,8 +6,8 @@ f - float
 .<número de dígitos>f
 x ou X - hexadecimal
 (Caractere)(><^)(quantidade)
-> - Esquerda (puxa a variavel pra direita e completa para a ESQUERDA)
-< - Direita (puxa a variavel pra esquerda e completa para a DIREITA)
+> - Esquerda (puxa o valor da variavel pra direita e completa para a ESQUERDA)
+< - Direita (puxa o valor da variavel pra esquerda e completa para a DIREITA)
 ^ - Centro
 Sinal - + ou - 
 Ex.: 0>-100,.1f
