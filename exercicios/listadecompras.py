@@ -1,12 +1,4 @@
-"""
-Faça uma lsta de compras com listas
-O usuario deve ter a possibilidade de
-inserir, apagar e listar valores da sua lista
-Não permita que o programa quebre com erros de indices na lista
-"""
-
 lista=[]
-listaenumerada=list(enumerate(lista))
 
 import subprocess
 

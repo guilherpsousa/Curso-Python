@@ -29,18 +29,3 @@ while inicio <= 8:
     nova_str+='*' + nome[inicio]
     inicio+=1
 print(nova_str)
-
-""" Eu tinha feito desse jeito, funciona mas foi muito código desnecessário.
-compnome=len(nome)
-
-contador=0
-indice=0 # (não precisava, eu poderia usar o contador em 'nome[indice]')
-while contador <= compnome:
-    if contador == compnome: # teria excluido esse if
-        break
-    nova_str+= '*' + nome[indice] # trocava [indice] por [contador]
-    contador+=1
-    indice+=1 # teria excluido isso
-
-print(nova_str)
- """
