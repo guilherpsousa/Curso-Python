@@ -5,7 +5,7 @@ Estou aprendendo programação do zero, e este repositório guarda meu progresso
 
 ## Estrutura
 
-- exercicios/: exercícios que resolvi durante o curso
+- exercicios/: exercícios que resolvi e pequenos projetos
 - tutoriais/: anotações e exemplos de cada tema
 
 ## Tópicos estudados
@@ -15,3 +15,6 @@ Módulo 1 - Lógica de programação básica
 - [x] Condições (if/else)
 - [x] Laços de repetição (for/while)
 - [x] Funções
+
+Módulo 2 - Python intermediário
+- [x] ...
